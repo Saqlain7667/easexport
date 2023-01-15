@@ -1,0 +1,18 @@
+.search-bar{
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 50%;
+    padding: 7px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+.search-btn {
+    padding: 7px 15px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    font-size: medium;
+    background-color: #2FA4FF;
+    color: #fff;
+}

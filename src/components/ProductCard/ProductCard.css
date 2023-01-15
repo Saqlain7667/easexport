@@ -1,0 +1,17 @@
+.card-container {
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.card-image {
+    border-radius: 7px 7px 0 0;
+}
+
+.card-btn {
+    padding: 0.3rem 0.7rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #2FA4FF;
+    margin-top: 0.5rem;
+}

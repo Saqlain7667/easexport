@@ -1,0 +1,43 @@
+.home-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+
+.home-container {
+    display: flex;
+    width: 90%;
+}
+
+.home-sidebar {
+    /* background-color: blueviolet; */
+    flex: 1;
+    height: 90vh;
+}
+
+.home-main {
+    /* background-color: aquamarine; */
+    flex: 3;
+}
+
+.fa-caret-down {
+    display: none;
+}
+
+@media (max-width: 680px) {
+
+
+    .fa-caret-down {
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        font-size: 1.1rem;
+        left: 2rem;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 50%;
+        box-shadow: 2px 2px 10px #eee;
+        z-index: 200;
+    }
+}
